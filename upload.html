@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Upload</title>
+</head>
+
+<body>
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<p>
+			<label>Foto:</label>
+			<input type="file" name="bestand">
+		</p>
+		
+		<p>
+			<label>Onderschrift: </label>
+			<input type="text" name="onderschrift">
+		</p>
+		
+		<p>
+			<label>Naam afbeelding:</label>
+			<input type="text" name="naam">
+		</p>
+		
+		<p>
+			<input type="submit" name="submit" value="Start upload">
+		</p>
+	</form>
+</body>
+</html>
